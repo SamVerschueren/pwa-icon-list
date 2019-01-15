@@ -1,0 +1,34 @@
+{
+	"name": "pwa-icon-list",
+	"version": "0.0.0",
+	"description": "List of the PWA launcher icons",
+	"license": "MIT",
+	"repository": "SamVerschueren/pwa-icon-list",
+	"author": {
+		"name": "Sam Verschueren",
+		"email": "sam.verschueren@gmail.com",
+		"url": "github.com/SamVerschueren"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"icons.json"
+	],
+	"keywords": [
+		"pwa",
+		"application",
+		"launcher",
+		"icons",
+		"list",
+		"data"
+	],
+	"devDependencies": {
+		"ava": "^1.1.0",
+		"xo": "^0.24.0"
+	}
+}
